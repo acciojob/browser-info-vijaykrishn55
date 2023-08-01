@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let div=document.CreateElement('div');
+let div=document.createElement("div");
 div.id='browser-info';
-document.body.appendChild(div);
-div.innerText="You are using "+Navigator.appName+" version "+Navigator.appVersion;
+document.body.append(div);
+div.innerHTML="You are using "+navigator.appName+" version "+navigator.appVersion;
